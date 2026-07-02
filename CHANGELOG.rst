@@ -2,6 +2,8 @@
 Changelog
 =========
 
+* Minor bugfix for optimization indices variable
+
 v0.3.0 (2026-04-07)
 ------------------------------------------------------------
 
