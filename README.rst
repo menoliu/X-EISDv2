@@ -43,4 +43,4 @@ If you use X-EISDv2, please cite::
 Version
 -------
 
-v0.3.0
+v0.3.1
