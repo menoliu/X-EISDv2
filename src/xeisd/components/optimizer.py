@@ -195,7 +195,7 @@ class XEISD(object):
         # initial scores
         indices = list(np.random.choice(np.arange(self.pool_size), final_size, replace=False))
         for key in flags:
-            old_scores[key] = self.calc_scores(key, final_size, indices)[1]
+            old_scores[key] = self.calc_scores(key, final_size, indices=indices)[1]
         new_scores = {}
         for name in flags:
             new_scores[name] = [0, 0, 0]
